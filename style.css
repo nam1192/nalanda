@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+    background-size: cover;
+    padding: 150px;
+}
+
+
+/* Navbar  */
+.navbar-collapse{
+    flex-grow: 0;
+    padding-right: 73px;
+    padding-top: 23px;
+}
+.nav-item a{
+    padding-top: 20px;
+    padding-bottom: 56px;
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-brand img{
+    width: 295px;
+    height: 60px;
+}
+
+
+
+/* Frontpage  */
+.frontpage{
+    display: inline-flex;
+}
+.container1{
+    width: 122px;
+}
+.container1 a{
+    display: flex;
+    padding: 20px 0px;
+    text-decoration: none;
+    width: 18px;
+    height: 18px;
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 21px;
+    color: rgb(173, 173, 173);
+}
+.container2{
+    display: flex;
+    width: 960px;
+    height: 418px;
+}
+
+#parent{
+    position: relative;
+}
+.photo img{
+    width: 1005px;
+    height: 499px;
+}
+.photo{
+    position: absolute;
+    z-index: -1 ;
+}
+
+.board{
+    position: relative;
+    top: 13px;
+    color: white;
+    background: rgba(7, 4, 4, 0.7);
+    z-index: 3;
+    width: 710px;
+    height: 313px;
+    padding: 21px 6px;
+    margin: 57px 236px 84px 52px;
+}
+.board h1{
+    width: 692px;
+    padding-top: 18px;
+    padding-left: 29px;
+    font-size: 48px;
+    font-family: 'Righteous', cursive;
+}
+.board p{
+    width: 540px;
+    font-size: 15px;
+    padding: 10px 35px;
+}
+
+.fa, .fas {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    color: red;
+}
+.line1{
+    color: red;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+/* Why Nalanda  */
+.container3{
+    display: flex;
+    margin-top: 76px;
+}
+.box1 img{
+    width: 500px;
+    height: 530px;
+}
+
+.box2{
+    width: 582px;
+    height: 530px;
+}
+
+.box2 p{
+    padding-right: 70px;
+    padding-top: 56px;
+    padding-left: 60px;
+}
+.top{
+    margin-left: 58px;
+}
+.line{
+    color: red;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.line2{
+    color: red;
+    font-size: 23px;
+    cursor: pointer;
+    padding-left: 77px;
+}
+
+
+
+/* How and What  */
+.container4{
+    display: flex;
+    margin-top: 86px;
+}
+.line3{
+    color: red;
+    font-size: 23px;
+    cursor: pointer;
+    padding-left: 174px;
+}
+.box10 img{
+    width: 526px;
+    height: 553px;
+}
+
+
+
+/* Current Projects  */
+.container5{
+    margin-top: 108px;
+    margin-bottom: 42px;
+}
+
+.rule{
+    text-align: center;
+}
+.rectangle{
+    margin: -50px;
+    padding: 0px; 
+    width: 161px;
+    height: 63px;
+    display: inline-flex;
+}
+.carousel-caption h6{
+    width: 195px;
+    height: 61px;
+    align-items: center;
+    background-color: rgb(238, 49, 53);
+    display: inline-grid;
+    position: relative;
+    top: 22px;
+    left: -22px
+}
+h6{
+    margin: 0px;
+    text-align: center;
+    font-size: 18px;
+}
+.carousel-item img{
+    align-items: center;
+    padding:0px 4px;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: flex;
+}
+.carousel-caption{
+    text-align: start;
+}
+
+
+
+/* Our Partners */
+.book{
+    text-align: center;
+    padding: 131px 0px;
+    position: relative;
+    color: white;
+    background: rgba(7, 4, 4, 0.6);
+    z-index: 3;
+    width: 1044px;
+    height: 452px;
+}
+
+#group{
+    position: relative;
+}
+.people1 img{
+    width: 1044px;
+    height: 452px;
+}
+.people1{
+    position: absolute;
+    z-index: -1 ;
+}
+
+
+
+/* contact  */
+#contact{
+    margin-left: 3px;
+    margin-right: 0px;
+}
+.container7{
+    background-color: red;
+    color: white;
+    height: 214px;
+    display: flex;
+    width: 1042px;
+}
+
+.box5{
+    display: inline-flex;
+    width: 530px;
+    text-align: center;
+    margin: 72px 52px 78px 86px;
+}
+.box5 span{
+    font-size: 30px;
+    width: 468px;
+    height: 94px;
+}
+.box11{
+    width: 530px;
+    text-align: center;
+}
+button{
+    background-color: red;
+    color: white;
+    border-color: white;
+    height: 80px;
+    font-size: 30px;
+    margin: 73px 123px 62px 52px;
+}
+.container8{
+    background-color:white;
+    width: 1042px;
+    height: 127.6px;
+}
+.box13{
+    height: 127.7px;
+    width: 1044px;
+    display: inline-flex;
+}
+.box13 img{
+    width: 130.2px;
+}
+
+
+
+#parent{
+    position: relative;
+}
+.face img{
+    height: 127.7px;
+    width: 130.2px;
+    z-index: -1 ;
+}
+.face{
+    position: absolute;
+    height: 127.7px;
+    width: 130.2px;
+}
+
+.face2{
+    align-items: center;
+    position: relative;
+    color: white;
+    background: rgba(252, 75, 71, 0.5);
+    z-index: 3;
+    height: 127.7px;
+    width: 130.2px;
+}
+.face2 i{
+    padding: 50px;
+    font-size: 42px;
+}
+
+
+
+.container9{
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    width: 1042px;
+    height: 354px;
+    display: flex;
+}
+.box6{
+    display: inline-block;
+    margin: 35px;
+    width: 300px;
+}
+.box6 span{
+    width: 300px;
+}
+
+.social a i{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
